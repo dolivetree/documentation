@@ -24,7 +24,7 @@ echo "hello" > readme.me
 git commit -a -m 'One commit"
 git branch main
 git checkout main
-git branch -D main
+git branch -D master
 git remote add local ../decipad
 git subtree add -P docs local docs-sync.v1 --squash
 ```
