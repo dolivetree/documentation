@@ -36,5 +36,5 @@ First create a new subtree branch in the monorepo, as above
 Then in this repo
 
 ```
-git subtree pull -P docs local new-branch.v2 --squash
+git subtree pull -P docs local docs-sync.v1 --squash
 ```
